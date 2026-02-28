@@ -25,7 +25,7 @@ function Footer() {
             <br />
             <a href="/zerodha.tech">Zerodha.tech</a>
             <br />
-            <a href="/press&media">Press & media</a>
+            <a href="/press-media">Press & media</a>
             <br />
             <a href="/zerodhacares">Zerodha cares (CSR)</a>
             <br />
@@ -40,7 +40,7 @@ function Footer() {
             <br />
             <a href="/listcharges">List of charges</a>
             <br />
-            <a href="/downloads&resources">Downloads & resources</a>
+            <a href="/downloads-resources">Downloads & resources</a>
             <br />
           </div>
           <div className="col">
