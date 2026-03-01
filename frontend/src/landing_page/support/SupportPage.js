@@ -1,36 +1,15 @@
-// import React from "react";
-
-// import Hero from "./Hero";
-// import CreateTicket from "./CreateTicket";
-
-// import Navbar from "../Navbar";
-// import Footer from "../Footer";
-
-// function PricingPage() {
-//   return (
-//     <>
-//     <Navbar />
-//       <Hero />
-//       <CreateTicket />
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default PricingPage;
-
-
 import React from "react";
+
 import Hero from "./Hero";
 import CreateTicket from "./CreateTicket";
 
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 
-function SupportPage() {
+function PricingPage() {
   return (
     <>
-      <Navbar />
+    <Navbar />
       <Hero />
       <CreateTicket />
       <Footer />
@@ -38,4 +17,5 @@ function SupportPage() {
   );
 }
 
-export default SupportPage;
+export default PricingPage;
+
