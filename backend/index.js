@@ -22,7 +22,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   process.env.FRONTEND_URL,
   process.env.DASHBOARD_URL
-];
+].filter(Boolean);
 
 app.use(cors({
   origin: function (origin, callback) {
